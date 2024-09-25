@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "254725557413",
+    "project_id": "my-fast-chat",
+    "storage_bucket": "my-fast-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254725557413:android:7fc18d9426e9134f7ed14c",
+        "android_client_info": {
+          "package_name": "com.example.myfastchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfKjz-EVTML-U93evVG0OwhwmvLhNra4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1B2775"
+    tools:context=".RegisFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+
+    <EditText
+        android:id="@+id/usernameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_supervised_user_circle_24"
+        android:fontFamily="@font/akaya_kanadaka"
+        android:hint="Enter your Username..?"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:background="@drawable/edit_tex"
+        android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:padding="15dp"/>
+
+
+    <EditText
+        android:id="@+id/emailTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/edit_tex"
+        android:drawableLeft="@drawable/baseline_attach_email_24"
+        android:fontFamily="@font/akaya_kanadaka"
+        android:hint="Enter your Email..?"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.Material3.TitleMedium" />
+
+
+    <EditText
+        android:id="@+id/passwordTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akaya_kanadaka"
+        android:drawableLeft="@drawable/baseline_key_off_24"
+        android:hint="Enter your Password..?"
+        android:textColor="@color/black"
+        android:inputType="numberPassword"
+        android:background="@drawable/edit_tex"
+        android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:padding="15dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sugnBton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit_log"
+        android:backgroundTint="#0AA8F5"
+        android:fontFamily="@font/aladin"
+        android:text="Sign in"
+        android:textColor="#EFF1F3"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/AlreadyHaveAAccountTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akaya_kanadaka"
+        android:text="Already Have A Account"
+        android:textAlignment="center"
+        android:textColor="#79BEDE"
+        android:textSize="25dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
