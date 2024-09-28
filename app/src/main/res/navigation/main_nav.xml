@@ -18,5 +18,19 @@
         android:id="@+id/regisFragment"
         android:name="com.example.myfastchat.RegisFragment"
         android:label="fragment_regis"
-        tools:layout="@layout/fragment_regis" />
+        tools:layout="@layout/fragment_regis" >
+        <action
+            android:id="@+id/action_regisFragment_to_userpagFragment"
+            app:destination="@id/userpagFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myfastchat.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/userpagFragment"
+        android:name="com.example.myfastchat.UserpagFragment"
+        android:label="fragment_userpag"
+        tools:layout="@layout/fragment_userpag" />
 </navigation>
